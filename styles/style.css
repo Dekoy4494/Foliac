@@ -1,0 +1,93 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.fo-header__item{
+    margin-left: 55px;
+}
+.fo-header__item img{
+    margin-left: 55px;
+    
+}
+.fo-header{                             /* Занимает пустое место картинкой и подтягивает ее снизу */
+    position: absolute;
+    width: 100%;
+}
+.fo-header a{ 
+    color: #ffffff;
+    text-decoration: none;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.fo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.fo-topmenu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.fo-hero1{
+    background-image: url(../img/computer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-color: black;
+    color: #ffffff;
+    padding: 270px 0 260px;
+    text-align: center;
+
+}
+
+.fo-btn{
+    text-transform: uppercase;
+    height: 38px;
+    line-height: 38px;
+    border: 2px solid lightgreen;
+    color: lightgreen;
+    border-radius: 5px;
+    padding: 0 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Lato";
+    font-weight: bold;
+}
+.fo-menu__link{
+    padding-bottom: 6px;
+    transition: .4s;
+    border-bottom: 0px solid transparent;   
+    overflow: hidden;
+
+}
+
+.fo-menu__link:hover,
+.fo-menu__link:focus{
+    border-bottom: 3px solid lightgreen; 
+    color: lightgreen;
+}
+
+.hero-title{
+    font-family: "big_johnregular";
+    font-size: 46px;
+}
+.hero-pretitle{
+    font-family: "slim_joeregular";
+    font-size: 30px;
+}
+
+.fo-topmenu a{
+    font-family: "Lato";
+    font-weight: bold;
+}
